@@ -3,7 +3,7 @@ Code for the [Hide-and-Seek: Forcing a Network to be Meticulous for Weakly-super
 Krishna Kumar Singh, Yong Jae Lee
 (http://krsingh.cs.ucdavis.edu/krishna_files/papers/hide_and_seek/hide_seek.html)
 
-If you use our work, please cite it:
+If you use our work, please cite:
 ```bibtex
 @inproceedings{singh-iccv2017,
   title = {Hide-and-Seek: Forcing a Network to be Meticulous for Weakly-supervised Object and Action Localization},
@@ -30,4 +30,4 @@ If you use our work, please cite it:
  
 
 ## Contact
-Please contact at krsingh@ucdavis.edu for the doubts.     
+Please contact krsingh@ucdavis.edu for any questions.     
