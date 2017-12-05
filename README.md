@@ -19,9 +19,9 @@ If you use our work, please cite it:
 3. For the visualization and generating Class Activation Maps(CAM) use the code https://github.com/metalbubble/CAM
 
 ## Training
-1. Please download `train.lua' and `opts.lua' and replace it in  https://github.com/soumith/imagenet-multiGPU.torch
-2. The new code has two additional arguments `patchSize` and `hideProb`. `patchSize` decides the size of the patch to be hidden. For example to hide the patches of size 32 give argument `-patchSize 32`. Multiple patch sizes can be provided seperated by comma, for example `-patchSize 0,16,32,44,56`. Here, `0` indicates no patch will be hidden. `hideProb` indicates by what probability patches will be hidden. For example to hide patches with `50%` probability give argument `-hideProb 0.5`.
-3. If you need to hide image patches in MXNet, please refer the code `hide_patch.py`.
+1. Please download `train.lua` and `opts.lua` and replace it in  https://github.com/soumith/imagenet-multiGPU.torch
+2. The new code has two additional arguments `patchSize` and `hideProb`. `patchSize` decides the size of the patch to be hidden. For example to hide the patches of size 32 give argument `-patchSize 32`. Multiple patch sizes can be provided seperated by comma, for example `-patchSize 0,16,32,44,56`. Here, `0` indicates no patch will be hidden. `hideProb` indicates by what probability patches will be hidden. For example to hide patches with `50%` probability give the argument `-hideProb 0.5`.
+3. If you need to hide the image patches in MXNet, please refer the code `hide_patch.py`.
 
 ## Pre-trained Models
 1. AlexNet-HaS-Mixed: https://drive.google.com/open?id=1QIrXJV5Sw0eYyXjauW6SlxkQXe3uDnmL
