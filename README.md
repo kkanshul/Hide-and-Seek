@@ -28,7 +28,7 @@ If you use our work, please cite:
 2. GoogLeNet-HaS-32: https://drive.google.com/open?id=1N3zgRmD0trCMfYOw1vo_DbesW4Ug7qx5
 3. Please subtract mean and divide by standard deviation (`meanstdCache.t7`). For class ordering refer `classes.t7`.
  
-# Visualization of AlextNet-Has for object localization:
+## Visualization of AlextNet-Has for object localization:
 [Click Here](http://vision3.idav.ucdavis.edu:8080/)
 ## Contact
 Please contact krsingh@ucdavis.edu for any questions.     
