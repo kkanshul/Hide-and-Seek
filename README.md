@@ -12,6 +12,14 @@ If you use our work, please cite:
   year = {2017}
 }
 ```
+```bibtex
+@inproceedings{singh-arxiv2018,
+  title = {Hide-and-Seek: A Data Augmentation Technique for Weakly-Supervised Localization and Beyond},
+  author = {Krishna Kumar Singh, Hao Yu, Aron Sarmasi, Gautam Pradeep, and Yong Jae Lee},
+  booktitle = {Arxiv},
+  year = {2018}
+}
+```
 
 ## Pre-requisites
 1. Torch (http://torch.ch/docs/getting-started.html)
