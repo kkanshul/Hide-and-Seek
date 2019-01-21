@@ -70,13 +70,13 @@ If you need to hide the image patches for data augmentation, please refer the co
       <td>89.4</td>
       <td>71.5</td>
       <td>78.3</td>
-      <td>57.6</td>
+      <td><b>57.6</b></td>
    </tr>
    <tr>
       <td>IDE+CamStyle+HaS</td>
-      <td>90.2</td>
-      <td>72.8</td>
-      <td>79.9</td>
+      <td><b>90.2</b></td>
+      <td><b>72.8</b></td>
+      <td><b>79.9</b></td>
       <td>57.2</td>
    </tr>
 </table>
