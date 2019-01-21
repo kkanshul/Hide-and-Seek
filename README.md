@@ -2,7 +2,7 @@
 Code for the [Hide-and-Seek: Forcing a Network to be Meticulous for Weakly-supervised Object and Action Localization, ICCV 2017]
 Krishna Kumar Singh, Yong Jae Lee
 (http://krsingh.cs.ucdavis.edu/krishna_files/papers/hide_and_seek/hide_seek.html)
-
+and [Hide-and-Seek: A Data Augmentation Technique for Weakly-Supervised Localization and Beyond] Krishna Kumar Singh, Hao Yu, Aron Sarmasi, Gautam Pradeep, Yong Jae Lee.
 If you use our work, please cite:
 ```bibtex
 @inproceedings{singh-iccv2017,
@@ -43,6 +43,44 @@ If you need to hide the image patches for data augmentation, please refer the co
 |Emotion recognition|  93.65 | 94.88 | **+1.23** |
 |Person re-identification| 71.60 | 72.80 | **+1.20** |\\	
  
+## Person re-identification Comparison
+
+<table>
+   <tr>
+      <td></td>
+      <td colspan="2">Market-1501</td>
+      <td colspan="2">Duke</td>
+   </tr>
+   <tr>
+      <td>Methods</td>
+      <td>Rank-1</td>
+      <td>mAP</td>
+      <td>Rank-1</td>
+      <td>mAP</td>
+   </tr>
+   <tr>
+      <td>IDE+CamStyle</td>
+      <td>87.6</td>
+      <td>67.3</td>
+      <td>74.8</td>
+      <td>52.4</td>
+   </tr>
+    <tr>
+      <td>IDE+CamStyle+Random Erasing</td>
+      <td>89.4</td>
+      <td>71.5</td>
+      <td>78.3</td>
+      <td>57.6</td>
+   </tr>
+   <tr>
+      <td>IDE+CamStyle+HaS</td>
+      <td>90.2</td>
+      <td>72.8</td>
+      <td>79.9</td>
+      <td>57.2</td>
+   </tr>
+</table>
+
 ## Visualization of AlextNet-HaS for object localization:
 [Click Here](http://vision3.idav.ucdavis.edu:8080/)
 ## Contact
