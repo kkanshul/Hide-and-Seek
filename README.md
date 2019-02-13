@@ -36,7 +36,7 @@ If you use our work, please cite:
 3. Please subtract mean and divide by standard deviation (`meanstdCache.t7`). For class ordering refer `classes.t7`.
 
 ## Data Augmentation
-If you need to hide the image patches for data augmentation, please refer the code `hide_patch.py`.
+If you need to hide the image patches for data augmentation, please refer the code `hide_patch.py`. This can be used for both PyTorch and MXNet.
 
 
 ## Results
