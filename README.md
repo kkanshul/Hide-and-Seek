@@ -34,7 +34,7 @@ If you use our work, please cite:
 1. AlexNet-HaS-Mixed: https://drive.google.com/open?id=1QIrXJV5Sw0eYyXjauW6SlxkQXe3uDnmL
 2. GoogLeNet-HaS-32: https://drive.google.com/open?id=1N3zgRmD0trCMfYOw1vo_DbesW4Ug7qx5
 3. Please subtract mean and divide by standard deviation (`meanstdCache.t7`). For class ordering refer `classes.t7`.
-4. ResNet-50-HaS(trained for classification task): https://drive.google.com/open?id=1QIrXJV5Sw0eYyXjauW6SlxkQXe3uDnmL
+4. ResNet-50-HaS(trained for classification task): https://drive.google.com/open?id=1CkrXmpqDtXGOTiL4v381WJ5Rn_tg32G1
 
 ## Data Augmentation
 If you need to hide the image patches for data augmentation, please refer the code `hide_patch.py`. This can be used for both PyTorch and MXNet.
