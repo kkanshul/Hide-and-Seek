@@ -21,7 +21,7 @@ def hide_patch(img):
     grid_size= grid_sizes[random.randint(0,len(grid_sizes)-1)]
 
     # hide the patches
-    if(grid_size<>0):
+    if(grid_size>0):
          for x in range(0,wd,grid_size):
              for y in range(0,ht,grid_size):
                  x_end = min(wd, x+grid_size)  
